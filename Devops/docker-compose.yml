@@ -1,0 +1,15 @@
+version: '2'
+services:
+  database:
+    container_name: banco_docker
+    image: mcr.microsoft.com/mssql/server
+    restart: unless-stopped
+    volumes:
+      - ./data:/opt/data # persistent oracle database data.
+    ports:
+      - 1433:1433
+      - 5500:5500
+    shm_size: 1g
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=S3nh@Segura
