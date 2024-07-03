@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/ian/RiderProjects/MeuSiteEmMVC/MeuSiteEmMVC/MeuSiteEmMVC.csproj": {}
+    "C:\\Users\\ianvxct\\RiderProjects\\Agenda_Contatos_C-\\MeuSiteEmMVC.csproj": {}
   },
   "projects": {
-    "/home/ian/RiderProjects/MeuSiteEmMVC/MeuSiteEmMVC/MeuSiteEmMVC.csproj": {
+    "C:\\Users\\ianvxct\\RiderProjects\\Agenda_Contatos_C-\\MeuSiteEmMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ian/RiderProjects/MeuSiteEmMVC/MeuSiteEmMVC/MeuSiteEmMVC.csproj",
+        "projectUniqueName": "C:\\Users\\ianvxct\\RiderProjects\\Agenda_Contatos_C-\\MeuSiteEmMVC.csproj",
         "projectName": "MeuSiteEmMVC",
-        "projectPath": "/home/ian/RiderProjects/MeuSiteEmMVC/MeuSiteEmMVC/MeuSiteEmMVC.csproj",
-        "packagesPath": "/home/ian/.nuget/packages/",
-        "outputPath": "/home/ian/RiderProjects/MeuSiteEmMVC/MeuSiteEmMVC/obj/",
+        "projectPath": "C:\\Users\\ianvxct\\RiderProjects\\Agenda_Contatos_C-\\MeuSiteEmMVC.csproj",
+        "packagesPath": "C:\\Users\\ianvxct\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ianvxct\\RiderProjects\\Agenda_Contatos_C-\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/ian/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\ianvxct\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -45,6 +45,12 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[7.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.20, )"
             }
           },
           "imports": [
@@ -66,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/ian/.dotnet/sdk/7.0.407/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\7.0.410\\RuntimeIdentifierGraph.json"
         }
       }
     }

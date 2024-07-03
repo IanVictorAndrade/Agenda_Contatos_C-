@@ -1,4 +1,5 @@
 using MeuSiteEmMVC.Data;
+using MeuSiteEmMVC.Repositorio;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -7,6 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<DatabaseContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DatabaseConnection")));
+builder.Services.AddScoped<IContatoRepositorio, ContatoRepositorio>();
 
 
 
