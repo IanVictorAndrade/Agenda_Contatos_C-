@@ -7,7 +7,7 @@ namespace MeuSiteEmMVC.Data
     {
         public DatabaseContext(DbContextOptions<DatabaseContext> options) : base(options) { }
 
-        public DbSet<ContatoModel> Contato { get; set; }
+        public DbSet<ContatoModel?> Contato { get; set; }
         // public DbSet<UsuarioModel> Users { get; set; }
         
         

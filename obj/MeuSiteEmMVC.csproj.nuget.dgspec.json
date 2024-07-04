@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ianvxct\\RiderProjects\\Agenda_Contatos_C-\\MeuSiteEmMVC.csproj": {}
+    "/home/ian/RiderProjects/Agenda_Contatos_CSharp/MeuSiteEmMVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ianvxct\\RiderProjects\\Agenda_Contatos_C-\\MeuSiteEmMVC.csproj": {
+    "/home/ian/RiderProjects/Agenda_Contatos_CSharp/MeuSiteEmMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ianvxct\\RiderProjects\\Agenda_Contatos_C-\\MeuSiteEmMVC.csproj",
+        "projectUniqueName": "/home/ian/RiderProjects/Agenda_Contatos_CSharp/MeuSiteEmMVC.csproj",
         "projectName": "MeuSiteEmMVC",
-        "projectPath": "C:\\Users\\ianvxct\\RiderProjects\\Agenda_Contatos_C-\\MeuSiteEmMVC.csproj",
-        "packagesPath": "C:\\Users\\ianvxct\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ianvxct\\RiderProjects\\Agenda_Contatos_C-\\obj\\",
+        "projectPath": "/home/ian/RiderProjects/Agenda_Contatos_CSharp/MeuSiteEmMVC.csproj",
+        "packagesPath": "/home/ian/.nuget/packages/",
+        "outputPath": "/home/ian/RiderProjects/Agenda_Contatos_CSharp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ianvxct\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/ian/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -72,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\7.0.410\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/ian/.dotnet/sdk/7.0.407/RuntimeIdentifierGraph.json"
         }
       }
     }
